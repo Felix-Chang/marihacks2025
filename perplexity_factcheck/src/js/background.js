@@ -130,7 +130,7 @@ async function handleFactCheck(text) {
     const options = {
         method: 'POST',
         headers: {
-            Authorization: 'Bearer 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',
+            Authorization: 'Bearer YOUR_API_KEY_HERE',
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
